@@ -1,0 +1,44 @@
+# ===============================================================
+# GITIGNORE - METRO RETAIL POS SYSTEM
+# ===============================================================
+
+# Environment Variables (Keep confidential keys out of Git)
+.env
+.env.*
+!.env.example
+
+# Database Files & SQLite WAL / Journal files
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.db-journal
+pos_retail.db
+
+# Python Bytecode, Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+env/
+venv/
+.venv/
+ENV/
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs & Temporary Files
+*.log
+test_pos.py
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
